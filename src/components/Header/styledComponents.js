@@ -62,11 +62,11 @@ export const GlobalStyle = createGlobalStyle`
 export const HeaderContainer = styled.div`
   height: 80px;
   width: 100vw;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
-  position: fixed;
   background-color: ${props => (props.darkTheme ? '#212121' : '#fff')};
   color: ${props => (props.darkTheme ? '#fff' : '#000')};
   padding: 0 20px;

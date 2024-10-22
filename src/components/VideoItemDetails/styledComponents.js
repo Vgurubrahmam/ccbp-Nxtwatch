@@ -4,7 +4,6 @@ import styled from 'styled-components'
 export const VideoContainer = styled.div`
   margin-bottom: 10px;
   height: 100vh;
-  margin-top: 80px;
   padding-left: 220px;
   @media (max-width: 768px) {
     margin-left: 20px;
@@ -27,7 +26,6 @@ export const VideoContainer = styled.div`
 `
 export const ParentContainer = styled.div`
   padding-left: 220px;
-  padding-top: 80px;
   background-color: ${props => (props.darkTheme ? '#000' : '#f4f4f4')};
   color: ${props => (props.darkTheme ? '#fff' : '#000')};
   height: 100vh;

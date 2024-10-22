@@ -19,7 +19,7 @@ export const HomeContainer = styled.div`
   color: #fff;
 
   @media (max-width: 767px) {
-    padding-top: 0px;
+    padding-top: 80px;
     margin-left: 0;
     /* Keeping min-height and min-width same as in original */
   }

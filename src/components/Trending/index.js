@@ -74,7 +74,7 @@ const Trending = () => {
                 <ProfileTrending darkTheme={!darkTheme}>
                   <FaFire color="red" size={25} />
                 </ProfileTrending>
-                <h1>Trending</h1>
+                <h1 style={{color: darkTheme ? '#fff' : '#000'}}>Trending</h1>
               </TrendingBanner>
               {isLoading && (
                 <div

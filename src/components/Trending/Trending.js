@@ -37,7 +37,7 @@ export const TrendingContainer = styled.div`
 `
 export const TrendingBanner = styled.div`
   padding-left: 4%;
-  background-color: #131213;
+  background-color: #909090;
   height: 100px;
   display: flex;
   justify-content: start;
