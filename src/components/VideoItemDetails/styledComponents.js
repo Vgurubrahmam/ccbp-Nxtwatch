@@ -4,12 +4,14 @@ import styled from 'styled-components'
 export const VideoContainer = styled.div`
   margin-bottom: 10px;
   height: 100vh;
+  padding-top: 80px;
   padding-left: 220px;
   @media (max-width: 768px) {
     margin-left: 20px;
     margin-right: 20px;
     width: calc(100% - 40px);
     padding-left: 0;
+    padding-top: 80px;
 
     height: 30vh;
   }
@@ -19,6 +21,7 @@ export const VideoContainer = styled.div`
     margin-right: 10px;
     width: calc(100% - 20px);
     padding-left: 0;
+    padding-top: 80px;
 
     height: 30vh;
     margin-bottom: 10px;
