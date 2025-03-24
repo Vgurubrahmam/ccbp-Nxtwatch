@@ -58,6 +58,7 @@ const Login = () => {
           alt="website logo"
           className="logo"
         />
+          <p>{'Hint > username : rahul ; password : rahul@2021'}</p>
         <label htmlFor="Username">USERNAME</label>
         <input
           type="text"
